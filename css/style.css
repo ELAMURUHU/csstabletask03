@@ -1,0 +1,40 @@
+/*TABLE-1*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+table{
+	background-color:#ebccff;
+	/* background-image:url("../images/car.jpg");
+	background-size:cover;
+	opacity:0.6; */
+}
+
+h1{
+	text-align:center;
+	color:blue;
+}
+/* th{
+	height:70px;
+} */
+
+.tim table,th,td{
+	 border:2px solid red; 
+	border-collapse:collapse;
+	
+	/* border-bottom:1px solid red; */
+	
+	
+}
+.tim th,td{padding:10px 20px}
+
+.tim table{width:100%;
+text-align:center;}
+
+.tim tr:hover{
+	background-color:#33ffad;
+	font-size:25px;
+	color:red;
+	font-family: 'Itim', cursive;
+}
+tr:nth-child(even) {background-color:#ff5c33;}
+
+
